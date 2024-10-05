@@ -35,12 +35,12 @@ Using these method to avoid a minimum cpu error problems. --pod-network-cidr=30.
 >[!CAUTION]
 > Bash /proc/sys/net/ipv4/ip_forward: Permission denied
 
-echo 1 > /proc/sys/net/ipv4/ip_forward
+    sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 
 >[!CAUTION]
-> scot not found....
+> socket not found....
 
-sudo apt-get install socket
+    sudo apt-get install socket
 
 
 
