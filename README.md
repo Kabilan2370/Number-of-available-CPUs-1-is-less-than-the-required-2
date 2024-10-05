@@ -32,6 +32,8 @@ Using these method to avoid a minimum cpu error problems. --pod-network-cidr=30.
 >[!TIP]
 > If you face these error while connecting slave nodes..
 
+![image](Screenshot from 2024-10-05 17-45-29.png)
+
 >[!CAUTION]
 > Bash /proc/sys/net/ipv4/ip_forward: Permission denied
 
