@@ -29,6 +29,20 @@ To resolve this problem...
 
 Using these method to avoid a minimum cpu error problems. --pod-network-cidr=30.320.0.0/16 this option will help your worker node get a relavent ip address.
 
+>[!TIP]
+> If you face these error while connecting slave nodes..
+
+>[!CAUTION]
+> Bash /proc/sys/net/ipv4/ip_forward: Permission denied
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+>[!CAUTION]
+> scot not found....
+
+sudo apt-get install socket
+
+
 
 
 
